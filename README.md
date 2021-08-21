@@ -1,24 +1,22 @@
-# olympicclimbing
+# Olympic Sports Climbing Scores
 
-## Project setup
-```
-npm install
-```
+Graphing out the chance of winning a medal, based on your score for the Olympic Sports Climbing finals.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+I like bouldering and I enjoyed watching sports climbing appear in the Olympics for the first time in Tokyo 2020. I wanted to find out what your chance of getting a medal was based on what score you got for the 3 disciplines.
+This graphs out the chances using `Chart.js` and `Vue.js`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Inspired by [this Reddit post](https://old.reddit.com/r/climbing/comments/oxxdrb/was_wondering_what_is_the_max_combined_ranking/?ref=share&ref_source=link).
 
-### Lints and fixes files
-```
-npm run lint
+## Installation
+
+To setup locally:
+
+```bash
+  cd olympicclimbing
+  npm install
+  npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Further Work
+
+I also want to look into the multiplicative scoring method that was present in the Olympics and compare it to other forms of scoring such as addititve or the scoring system of F1.
